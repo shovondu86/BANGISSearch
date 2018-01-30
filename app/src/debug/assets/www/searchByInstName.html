@@ -1,0 +1,307 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Material Design Lite</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="material.cyan-light_blue.min.css">
+	<link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">  
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    
+    
+    
+    .dropdown-menu {
+    min-width: 10px !important;
+    
+}
+
+
+.ui-autocomplete {
+    font-size: 12px;
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.ui-autocomplete-category_r {
+    background: #47a447 none repeat scroll 0 0;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 120%;
+    line-height: 1.5;
+    margin: 0.8em 0 0.2em;
+    padding: 0.2em 0.4em;
+}
+.ui-autocomplete-category_n {
+    background: #d4412d none repeat scroll 0 0;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 120%;
+    line-height: 1.5;
+    margin: 0.8em 0 0.2em;
+    padding: 0.2em 0.4em;
+}
+.ui-autocomplete-category_o {
+    background: #428bca none repeat scroll 0 0;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 120%;
+    line-height: 1.5;
+    margin: 0.8em 0 0.2em;
+    padding: 0.2em 0.4em;
+}
+.ui-autocomplete-sub-category {
+    background: #5ebfdd none repeat scroll 0 0;
+    border: 1px solid #5ebfdd;
+    color: #ffffff;
+    font-size: 110%;
+    line-height: 1.5;
+    margin: -0.2em 0 0.2em;
+    padding: 0.2em 0.4em;
+}
+.ui-autocomplete-sub-category1 {
+    background: #5ebfdd none repeat scroll 0 0;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 110%;
+    line-height: 1.5;
+    margin: 0.8em 0 0.2em;
+    padding: 0.2em 0.4em;
+}
+.ui-widget-content .ui-state-focus {
+    background: #f2f5f7 none repeat scroll 0 0;
+    border: 1px solid #428bca;
+    color: #008fdc;
+    font-size: 100%;
+    font-weight: bold;
+}
+* html .ui-autocomplete {
+    font-size: 12px;
+    height: 200px;
+}
+
+.ui-widget{
+  font-size: 100%;
+  z-index: 99999;
+/*   background: white; */
+}
+    </style>
+	
+	<script>
+
+
+	</script>
+  </head>
+  <body>
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+      <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title" >BANBEIS GIS Search</span>
+          <div class="mdl-layout-spacer"></div>
+		
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+            
+			<img src="images/ban.png" class="demo-avatar">
+            
+          </div>
+		 
+         
+         
+        </div>
+      </header>
+      <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+        <header class="demo-drawer-header">
+		
+	<!--	<img src="images/user.jpg" class="demo-avatar">-->
+        <img src="images/logo.png" class="demo-avatar"> 
+		  <label class="" >Bangladesh Bureau of Statistics (BANBEIS)</label> 
+          <div class="demo-avatar-dropdown">
+            
+            <div class="mdl-layout-spacer"></div>
+          
+            
+          </div>
+		  
+        </header>
+        <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
+          <a class="mdl-navigation__link" href="index.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">inbox</i>About </a>
+       
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">report</i>Director</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">forum</i>Address</a>
+     
+        </nav>
+      </div>
+      <main class="mdl-layout__content mdl-color--grey-100">
+        <div class="mdl-grid demo-content">
+         
+		 <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid  ">
+                     
+                    
+ <div class="mdl-textfield mdl-js-textfield">
+  <input class="mdl-textfield__input" type="text" id="searchInst"  >
+  <label class="mdl-textfield__label" for="searchClient">Search by Institute EIIN No  / Name</label>
+</div>
+             
+                 </div> 
+		  
+	 
+
+          
+        </div>
+      </main>
+    </div>
+      
+      <a href=""  id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">Show Map</a>
+	 
+    <script src="material.min.js"></script>
+	
+	<script src="jquery-3.2.1.min.js"></script>		  
+<script src="jquery-ui/jquery-ui.min.js"></script>
+
+
+<script>
+    
+    
+ 
+	$(function () {
+     onloadGeocodeJS();
+  	
+});
+
+
+
+function getEditCustInfo( id,name){
+	  //Android.showToast(id);
+	window.location.replace("map_1.html?id=1");
+ 	 
+}
+
+
+
+function onloadGeocodeJS(){
+
+	var selectedItem="";
+	function getSelectedItem( id,name ) {
+		getEditCustInfo( id,name);
+	
+	selectedItem=name;
+
+	}
+	$("#searchInst" ).keyup(function(){
+	selectedValue=$(this).val();
+	});
+
+	$.widget( "custom.searchInfo", $.ui.autocomplete, {
+		 _create: function() {
+		      this._super();
+		      this.widget().menu( "option", "items", "> :not(.ui-autocomplete-category)" );
+	    },
+	    _renderMenu: function( ul, items ) {
+	      var that = this,
+	        currentCategory = "";
+	        currentSubCategory = "";
+	      $.each( items, function( index, item ) {
+	    	  var li;
+		    
+			        if ( item.subCategory != currentSubCategory ) {
+				          ul.append( "<li class='ui-autocomplete-category ui-autocomplete-sub-category1'>" + item.subCategory+"</li>" );
+				          currentSubCategory = item.subCategory;
+			        }
+		        
+		        that._renderItemData( ul, item );
+		   });
+	    }
+	  });
+	
+	
+
+	$( "#searchInst" ).searchInfo({//autocomplete({
+		 minLength: 3,
+                 dataType: 'jsonp',
+	 source: function(request, response){
+	 jQuery.get("inst_name.json", {searchWord:request.term},function(data){
+
+	 response($.map(data, function(item) {
+	 var cpt=item.cptCode;
+		 var testName=(cpt==null?item.INST_NAME:'['+cpt+'] # '+item.INST_NAME);
+
+	 return {label: testName,value: testName,eiinId:item.EIIN,instName:item.client_name,subCategory:item.THANA};
+	 })
+	 
+	 );
+	 },"json");
+	 },dataType: "jsonp",
+	 cache: false,
+	 select: function( event, ui ) {
+		getSelectedItem(ui.item.clientId,ui.item.instName);
+
+		 return false;
+	 },focus: function(event, ui){
+	     return false;
+	 },close: function( event, ui ) {
+		 $( this ).val(selectedItem);
+	 }
+	});
+	}
+	
+
+
+</script>
+
+
+
+
+  </body>
+</html>

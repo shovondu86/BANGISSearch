@@ -1,0 +1,19 @@
+.leaflet-control-draw-measure:before{
+    /* background-image: url(images/measure-control.png); */
+    
+    font-family: "Glyphicons Halflings";
+  content: "\e024";
+}
+
+
+.leaflet-control-container{
+	
+	display: block;
+}
+
+
+.leaflet-draw-draw-polyline{
+	 font-family: "Glyphicons Halflings" !important;
+  content: "\e024" !important;
+	
+}
